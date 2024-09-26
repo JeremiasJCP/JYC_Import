@@ -1,0 +1,253 @@
+/* Fuentes */
+
+
+/* .allura-regular {
+  font-family: "Allura", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.dancing-script-<uniquifier> {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    min-width: 320px;
+    height: 25vh;
+    color: white;
+    background-color: #2C577E;
+}
+
+.contenedorLogo {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    font-size: 4vw;
+}
+
+.contenedorLogo h2 {
+    width: 100%;
+    font-size: 8vw;
+    text-align: center;
+    margin-bottom: 1vw;
+    font-family: "Allura", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contenedorLogo h4 {
+    width: 40%;
+    font-size: 2vw;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Gowun Batang", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.contenedorLogo hr {
+    width: 40%;
+    height: 1px;
+    font-size: 4vw;
+    color: white;
+}
+
+.textoIntroductorio {
+    height: 85%;
+    font-weight: 700;
+    margin-top: 5vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    text-align: center;
+    font-size: large;
+}
+
+.contenedorIconos {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #2C577E;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.contenedorIconos img {
+    width: 30px;
+    height: 70px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.buscador {
+    width: 100%;
+    min-width: 320px;
+    margin-top: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alineadorBuscador {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputBuscador {
+    width: 80%;
+    max-width: 500px;
+    height: 9vw;
+    max-height: 35px;
+    padding-left: 5px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+#botonEnviarID {
+    width: 20%;
+    max-width: 500px;
+    height: 9vw;
+    max-height: 35px;
+    padding-left: 5px;
+    border-radius: 4px;
+    margin-left: -25px;
+    color: white;
+    background-color: #1F3D57;
+}
+
+.textoInformativo {
+    width: 100%;
+    min-width: 320px;
+    height: max-content;
+    padding: 1vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.articleTextoInformativo {
+    min-width: 300px;
+    max-width: 350px;
+    font-size: 4vw;
+    padding: 2vw;
+}
+
+.svgEntrega {
+    max-width: 400px;
+}
+
+.contenedorEstadoEnvioCalendario {
+    min-width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+}
+
+.textoEstadoEnvio {
+    width: 50%;
+    min-width: 300px;
+    min-height: 300px;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3vw;
+    font-size: 4vw;
+    height: max-content;
+}
+
+.textoEstadoEnvio h4 {
+    width: 100%;
+    font-size: 4vw;
+    text-align: start;
+}
+
+.articleEstadoEnvio {
+    font-size: 4vw;
+    text-align: start;
+}
+
+.contenedorIconoEstadoEnvio {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.contenedorCalendario {
+    width: 50%;
+    min-width: 300px;
+    min-height: 300px;
+    max-height: 400px;
+    padding: 3vw;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.calendario {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calendario div {
+    margin-top: 1vh;
+    padding: 2vw;
+    font-size: 4vw;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px 12px 0 0;
+    text-align: start;
+}
+
+.calendario hr {
+    width: 10px;
+    height: 10px;
+    margin-top: 7px;
+    border-radius: 100%;
+    background-color: #1F3D57;
+}
+
+.pedidoRealizado {
+    background-color: #1F3D57;
+    color: white;
+}
+
+.PedidoProximo {
+    background-color: #3871A5;
+    color: white;
+}
