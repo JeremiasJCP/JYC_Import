@@ -27,7 +27,7 @@ header {
     min-width: 320px;
     color: white;
     background: rgb(0, 0, 0);
-    background: linear-gradient(190deg, rgba(0, 0, 0, 1) 15%, rgba(74, 73, 73, 1) 68%, rgba(120, 120, 120, 1) 88%, rgb(187, 187, 187) 96%);
+    background: linear-gradient(171deg, rgba(0, 0, 0, 1) 0%, rgba(46, 28, 43, 1) 31%, rgba(74, 25, 66, 1) 66%, rgba(137, 49, 104, 1) 87%);
 }
 
 .contenedorLogo {
@@ -108,6 +108,7 @@ header {
     padding-left: 5px;
     border-radius: 4px;
     font-weight: bold;
+    border: none;
 }
 
 #botonEnviarID {
@@ -117,9 +118,9 @@ header {
     max-height: 35px;
     padding-left: 5px;
     margin-left: -25px;
-    color: white;
+    color: #893168;
     border: none;
-    background-color: rgba(74, 73, 73, 1);
+    background-color: #eaeaea;
 }
 
 #AunNoHasBuscadoID {
@@ -176,7 +177,7 @@ main {
     width: 100%;
     text-align: center;
     margin: 1rem 0;
-    color: rgb(95, 94, 94);
+    color: #4a1942;
 }
 
 .articleTextoInformativo p {
@@ -200,7 +201,7 @@ main {
     margin-top: 3vh;
     padding: 4vh;
     background-color: rgba(0, 0, 0, 0.068);
-    color: rgb(71, 71, 71);
+    color: #4a1942;
 }
 
 .ContenedorEstadoEnvio {
@@ -267,7 +268,7 @@ i {
     align-items: center;
     justify-content: center;
     border-radius: 16px;
-    background-color: rgb(0, 0, 0);
+    background-color: #2e1c2b;
 }
 
 .contenedorIconoProximoPedido {
@@ -328,7 +329,7 @@ i {
     width: 100%;
     text-align: center;
     margin-bottom: 1vh;
-    color: rgb(95, 94, 94);
+    color: #4a1942;
 }
 
 .contenedorInformativoShein {
@@ -340,10 +341,6 @@ i {
     text-align: justify;
     padding: 2vw;
     margin-bottom: 30px;
-    border: solid rgb(240, 240, 240) 1px;
-    border-radius: 4px;
-    background-color: rgb(247, 247, 247);
-    box-shadow: 10px 10px 20px rgb(75, 75, 75);
 }
 
 .contenedorInformativoShein img {
@@ -369,7 +366,7 @@ i {
     width: 100%;
     margin-left: 2vw;
     text-align: start;
-    color: rgb(95, 94, 94);
+    color: #4a1942;
 }
 
 .contenedorGeneralPreguntas {
@@ -381,12 +378,12 @@ i {
     width: 100%;
     padding: 2vw;
     margin-top: 2vh;
-    border: solid 2px rgb(66, 66, 66);
+    border: solid 2px #4a1942;
     border-radius: 9px;
 }
 
 .contenedorPreguntasIndividuales:hover {
-    background-color: rgba(0, 0, 0, 0.911);
+    background-color: #4a1942;
     color: white;
 }
 
@@ -404,7 +401,7 @@ i {
     font-weight: bold;
     text-align: start;
     box-sizing: border-box;
-    color: rgb(110, 110, 110);
+    color: #8f8f8f;
 }
 
 .iconoDesplegablePregunta {
@@ -430,8 +427,8 @@ i {
     padding: 2vw;
     text-align: center;
     text-decoration: none;
-    color: white;
-    background-color: rgb(99, 99, 99);
+    color: black;
+    background-color: #eaeaea;
 }
 
 .contenedorRespuestaPregunta.mostrar {
