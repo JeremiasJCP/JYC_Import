@@ -41,7 +41,9 @@ header {
 
 .contenedorLogo h2 {
     width: 100%;
-    font-size: xx-large;
+    margin-top: 3vh;
+    padding-top: 2vh;
+    font-size: 14vh;
     text-align: center;
     margin-bottom: 1vw;
     font-family: "Allura", cursive;
@@ -134,9 +136,6 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    position: sticky;
-    top: 0;
-    left: 0;
 }
 
 .contenedorIconos img {
@@ -145,6 +144,8 @@ header {
 }
 
 main {
+    width: 100%;
+    min-width: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -210,7 +211,7 @@ main {
 
 .ContenedorDatosEnvio div {
     width: 100%;
-    margin-top: 0.3vh;
+    margin: 3vh 0;
     display: flex;
     flex-wrap: wrap;
 }
@@ -283,7 +284,7 @@ i {
     align-items: center;
     justify-content: center;
     padding: 2vw;
-    /* font-size: 2vw; */
+    margin-top: 3vh;
 }
 
 .contendorCompraShein b {
@@ -313,4 +314,75 @@ i {
 
 .contenedorInformativoShein p {
     padding: 2vw;
+}
+
+
+/* Preguntas frecuentes */
+
+.preguntasFrecuentes {
+    width: 100%;
+    min-width: 320px;
+    background-color: aquamarine;
+    margin-top: 3vh;
+    padding: 2vw;
+}
+
+.preguntasFrecuentes h3 {
+    width: 100%;
+    margin-left: 2vw;
+    text-align: start;
+}
+
+.contenedorGeneralPreguntas {
+    width: 100%;
+    padding: 2vw;
+    border: solid 1px purple;
+}
+
+.contenedorPreguntasIndividuales {
+    width: 100%;
+    padding: 1vw;
+    margin-top: 2vh;
+    border: solid 2px green;
+    border-radius: 9px;
+}
+
+.contenedorEncabezadoPregunta {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px blue solid;
+}
+
+.pregunta {
+    width: 80%;
+    font-weight: bold;
+    text-align: start;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.iconoDesplegablePregunta {
+    width: 15%;
+    max-width: 60px;
+    height: 30px;
+    text-align: center;
+    font-size: 8vw;
+    border: 1px solid black;
+}
+
+.contenedorRespuestaPregunta {
+    padding: 2vh;
+    border: 1.3px solid rgb(255, 47, 47);
+    display: none;
+}
+
+.contenedorRespuestaPregunta.mostrar {
+    display: block;
+}
+
+#iconoDesplegablePregunta {
+    cursor: pointer;
 }
