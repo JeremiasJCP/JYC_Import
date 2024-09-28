@@ -199,17 +199,15 @@ main {
     justify-content: center;
     margin-top: 3vh;
     padding: 4vh;
-    border: 2px solid rgb(43, 42, 42);
-    border-radius: 16px;
-    background-color: rgb(48, 48, 48);
-    color: white;
+    background-color: rgba(0, 0, 0, 0.068);
+    color: rgb(71, 71, 71);
 }
 
 .ContenedorEstadoEnvio {
     padding: 2vw;
 }
 
-.ContenedorEstadoEnvio h4 {
+.ContenedorEstadoEnvio h2 {
     width: 100%;
     text-align: center;
     margin: 1vh 0;
@@ -388,7 +386,7 @@ i {
 }
 
 .contenedorPreguntasIndividuales:hover {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.911);
     color: white;
 }
 
@@ -406,6 +404,7 @@ i {
     font-weight: bold;
     text-align: start;
     box-sizing: border-box;
+    color: rgb(110, 110, 110);
 }
 
 .iconoDesplegablePregunta {

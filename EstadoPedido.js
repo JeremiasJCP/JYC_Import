@@ -12,7 +12,7 @@ let ActualizacionfechaUNO = '30/12/2025 2:00pm';
 
 // Variables Pedido Dos
 let estadoPaqueteDOS;
-let fechaPedidoDOS = '4/10/2024';
+let fechaPedidoDOS = '4/12/2024';
 let ActualizacionfechaDOS = '3/12/2025 4:00pm';
 
 // Variables de estado de Pedido UNO
@@ -73,12 +73,12 @@ function entradaDeDatos() {
     input = document.getElementById('buscadorID');
     valorInput = input.value;
 
-    if (valorInput === '123456') {
+    if (valorInput === '321') {
         idNoexiste.style.display = 'none';
         contenedorPrincipalDatosEnvio.style.display = 'flex'
         datosPedido(estadoPaqueteUNO, fechaPedidoUNO, ActualizacionfechaUNO, valorInput)
 
-    } else if (valorInput === '789456') {
+    } else if (valorInput === '123') {
         idNoexiste.style.display = 'none';
         contenedorPrincipalDatosEnvio.style.display = 'flex'
         datosPedido(estadoPaqueteDOS, fechaPedidoDOS, ActualizacionfechaDOS, valorInput)
