@@ -360,6 +360,7 @@ i {
     max-width: 820px;
     margin-top: 3vh;
     padding: 2vw;
+    user-select: none;
 }
 
 .preguntasFrecuentes h3 {
@@ -371,29 +372,39 @@ i {
 
 .contenedorGeneralPreguntas {
     width: 100%;
+    height: auto;
     padding: 2vw;
 }
 
-.contenedorPreguntasIndividuales {
+.contenedorPregunta {
     width: 100%;
+    height: 70px;
     padding: 2vw;
     margin-top: 2vh;
     border: solid 2px #4a1942;
     border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    overflow: hidden;
 }
 
-.contenedorPreguntasIndividuales:hover {
+.contenedorPregunta:hover {
     background-color: #4a1942;
     color: white;
+    height: auto;
 }
 
 .contenedorEncabezadoPregunta {
     width: 100%;
+    height: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
     font-size: medium;
+    user-select: none;
 }
 
 .pregunta {
@@ -402,26 +413,19 @@ i {
     text-align: start;
     box-sizing: border-box;
     color: #8f8f8f;
+    user-select: none;
 }
 
-.iconoDesplegablePregunta {
-    text-align: center;
-    font-size: 6vw;
-}
-
-.contenedorRespuestaPregunta {
+.respuestaPregunta {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 2vh;
-    display: none;
-    font-size: small;
+    margin-top: 3.4vh;
+    font-size: medium;
     cursor: pointer;
+    user-select: none;
 }
 
-.contenedorRespuestaPregunta a {
-    width: 20%;
-    min-width: max-content;
+.contenedorPregunta a {
+    max-width: max-content;
     border-radius: 6px;
     margin: 3vh 0;
     padding: 2vw;
@@ -431,8 +435,29 @@ i {
     background-color: #eaeaea;
 }
 
-.contenedorRespuestaPregunta.mostrar {
+
+/* Pruebas */
+
+.contenedorPrueba {
+    width: 100%;
+    height: 40vh;
+    padding: 2vh;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4a1942;
+}
+
+.contenedorA {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    background-color: #893168;
+    overflow: hidden;
+}
+
+.contenedorA:hover {
+    height: auto;
 }
 
 @media (min-width: 500px) {
