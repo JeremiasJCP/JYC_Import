@@ -17,40 +17,38 @@ let ActualizacionfechaDOS = '3/12/2025 4:00pm';
 
 // Variables de estado de Pedido UNO
 
-
-estadoPaqueteUNO = 'Procesando Orden';
-// estadoPaqueteUNO = 'En Espera de envío';
-// estadoPaqueteUNO = 'Pedido Enviado';
-// estadoPaqueteUNO = 'Paquete llegó al aeropuerto, a la espera del vuelo';
-// estadoPaqueteUNO = 'El vuelo despegó';
+// estadoPaqueteUNO = 'Orden en proceso';
+estadoPaqueteUNO = 'Esperando envío';
+// estadoPaqueteUNO = 'Pedido enviado';
+// estadoPaqueteUNO = 'Paquete en aeropuerto, esperando vuelo (CHN - E.E.U.U.)';
+// estadoPaqueteUNO = 'Vuelo despegado';
 // estadoPaqueteUNO = 'Paquete en aduanas';
-// estadoPaqueteUNO = 'Paquete ha llegado a nuestro almacén en EE.UU.';
-// estadoPaqueteUNO = 'Salida a Venezuela Programada';
-// estadoPaqueteUNO = 'El paquete llegó a Venezuela';
-// estadoPaqueteUNO = 'Paquete entró en Aduana';
-// estadoPaqueteUNO = 'Paquete Procesado por aduanas';
-// estadoPaqueteUNO = 'Paquete salió de aduanas';
-// estadoPaqueteUNO = 'Paquete salió a destino';
-// estadoPaqueteUNO = 'Paquete en Puerto Cabello. Se le notificará vía WhatsApp para su retirada';
+// estadoPaqueteUNO = 'Paquete en almacén de EE.UU.';
+// estadoPaqueteUNO = 'Salida a Venezuela programada';
+// estadoPaqueteUNO = 'Paquete llegó a Venezuela';
+// estadoPaqueteUNO = 'Paquete en aduana';
+// estadoPaqueteUNO = 'Paquete procesado por aduanas';
+// estadoPaqueteUNO = 'Paquete liberado de aduanas';
+// estadoPaqueteUNO = 'Paquete en camino a destino';
+// estadoPaqueteUNO = 'Paquete en Puerto Cabello.';
 
 
 // Variables de estado de Pedido DOS
 
-
-// estadoPaqueteDOS = 'Procesando Orden';
-// estadoPaqueteDOS = 'En Espera de envío';
-// estadoPaqueteDOS = 'Pedido Enviado';
-// estadoPaqueteDOS = 'Paquete llegó al aeropuerto, a la espera del vuelo';
-estadoPaqueteDOS = 'El vuelo despegó';
+// estadoPaqueteDOS = 'Orden en proceso';
+// estadoPaqueteDOS = 'Esperando envío';
+// estadoPaqueteDOS = 'Pedido enviado';
+estadoPaqueteDOS = 'Paquete en aeropuerto, esperando vuelo (CHN - E.E.U.U.)';
+// estadoPaqueteDOS = 'Vuelo despegado';
 // estadoPaqueteDOS = 'Paquete en aduanas';
-// estadoPaqueteDOS = 'Paquete ha llegado a nuestro almacén en EE.UU.';
-// estadoPaqueteDOS = 'Salida a Venezuela Programada';
-// estadoPaqueteDOS = 'El paquete llegó a Venezuela';
-// estadoPaqueteDOS = 'Paquete entró en Aduana';
-// estadoPaqueteDOS = 'Paquete Procesado por aduanas';
-// estadoPaqueteDOS = 'Paquete salió de aduanas';
-// estadoPaqueteDOS = 'Paquete salió a destino';
-// estadoPaqueteDOS = 'Paquete en Puerto Cabello. Se le notificará vía WhatsApp para su retirada';
+// estadoPaqueteDOS = 'Paquete en almacén de EE.UU.';
+// estadoPaqueteDOS = 'Salida a Venezuela programada';
+// estadoPaqueteDOS = 'Paquete llegó a Venezuela';
+// estadoPaqueteDOS = 'Paquete en aduana';
+// estadoPaqueteDOS = 'Paquete procesado por aduanas';
+// estadoPaqueteDOS = 'Paquete liberado de aduanas';
+// estadoPaqueteDOS = 'Paquete en camino a destino';
+// estadoPaqueteDOS = 'Paquete en Puerto Cabello.';
 
 
 function datosPedido(nuevoEstado, fechaInicioPedido, nuevaFecha, ID) {
@@ -62,7 +60,7 @@ function datosPedido(nuevoEstado, fechaInicioPedido, nuevaFecha, ID) {
     const elementoFecha = document.getElementById('fechaActualizacion');
 
     // Actualizar el contenido de los elementos
-    idPedido.textContent = ID;
+    idPedido.textContent = '#' + ID;
     fechaInicialP.textContent = fechaInicioPedido;
     elementoEstado.textContent = nuevoEstado;
     elementoFecha.textContent = nuevaFecha;

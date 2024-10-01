@@ -193,6 +193,9 @@ main {
     align-items: start;
 }
 
+
+/* Datos del Envio */
+
 .ContenedorEstadoEnvio {
     display: flex;
     flex-direction: column;
@@ -222,9 +225,18 @@ main {
 
 .ContenedorDatosEnvio div {
     width: 100%;
-    margin: 3vh 0;
+    margin: 1vh 0;
     display: flex;
     flex-wrap: wrap;
+}
+
+.contedorEstadoPedido {
+    padding: 3vh 2vw;
+    font-weight: 800;
+    color: #893168;
+    text-decoration: underline;
+    border-radius: 4px;
+    background-color: rgb(224, 224, 224);
 }
 
 .ContenedorDatosEnvio p,
