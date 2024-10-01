@@ -239,6 +239,11 @@ main {
     background-color: rgb(224, 224, 224);
 }
 
+.textoPreguntaSignificadoEstadoEnvio {
+    color: black;
+    font-size: small;
+}
+
 .ContenedorDatosEnvio p,
 i {
     margin-left: 1vw;
@@ -337,6 +342,10 @@ i {
     margin-top: 3vh;
 }
 
+.contendorCompraShein p {
+    margin-top: 3vh;
+}
+
 .contendorCompraShein h3 {
     width: 100%;
     text-align: center;
@@ -346,20 +355,39 @@ i {
 
 .contenedorInformativoShein {
     width: 90%;
+    height: 95px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     text-align: justify;
     padding: 2vw;
     margin-bottom: 30px;
+    overflow: hidden;
+    border-radius: 9px;
+    color: white;
+}
+
+.contenedorInformativoShein:hover {
+    border: 2px solid black;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    filter: brightness(80%);
+    background-color: #893168;
+    color: white;
 }
 
 .contenedorInformativoShein img {
+    background-color: white;
     width: 60px;
 }
 
 .contenedorInformativoShein p {
+    color: white;
+    text-align: center;
+    font-weight: 800;
     padding: 2vw;
     font-size: smaller;
 }
@@ -432,7 +460,13 @@ i {
     width: 100%;
     margin-top: 3.4vh;
     font-size: medium;
-    cursor: pointer;
+    user-select: none;
+}
+
+.puntosListaSignificadoEstadoPedido {
+    width: 95%;
+    margin-bottom: 3vh;
+    font-size: medium;
     user-select: none;
 }
 
